@@ -70,7 +70,7 @@ if ( isset( $_POST['global_fb_pixel_setting'] ) ) :?>
 				$wpmfbp_post_types[ $key ] = $post_type->labels->name;
 			}
 			//get prev $wpmfbp_post_types setting
-			$prev_wpmfbp_post_types = get_option( 'wpmfbp_post_types', true );
+			$prev_wpmfbp_post_types = get_option( 'wpmfbp_post_types', '' );
 			?>
             <tr>
                 <th scope="row">

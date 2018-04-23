@@ -75,6 +75,7 @@ if ( ! class_exists( 'WP_Multiple_FB_Pixels' ) ) {
 				 */
 				include_once WPMFBP_ABSPATH . 'includes/helper-functions.php';
 				include_once WPMFBP_ABSPATH . 'includes/admin/class-global-setting.php';
+				include_once WPMFBP_ABSPATH . 'includes/admin/post-types-metabox.php';
 			}
 		}
 	}
